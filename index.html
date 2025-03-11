@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام الولاء الموحد</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation with Logo -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/loyality.png" alt="شعار نظام الولاء الموحد" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">المميزات</a>
+                <a href="#partners" class="nav-link">المجالات</a>
+                <a href="#testimonials" class="nav-link">آراء العملاء</a>
+                <a href="#signup" class="nav-link btn btn-sm">انضم الآن</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Section -->
+    <header>
+        <div class="header-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="header-bg"></div>
+        <div class="container header-content">
+            <h1>نظام الولاء الموحد</h1>
+            <p class="tagline">جمع النقاط. احصل على المكافآت. استمتع بتجربة تسوق فريدة مع أفضل المتاجر والخدمات في منصة واحدة</p>
+            <a href="#signup" class="btn btn-primary">انضم الآن <i class="fas fa-arrow-left"></i></a>
+        </div>
+    </header>
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title">لماذا تختار منصتنا؟</h2>
+            <div class="features-container">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-store"></i></div>
+                    <h3 class="feature-title">للمنشآت</h3>
+                    <p class="feature-description">زد من ولاء عملائك الحاليين واجذب عملاء جدد من خلال برنامج مكافآت فعال وسهل الإدارة.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="feature-title">للعملاء</h3>
+                    <p class="feature-description">اجمع النقاط واستبدلها بتخفيضات حصرية لدى مجموعة متنوعة من المتاجر والخدمات.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h3 class="feature-title">للمجتمع</h3>
+                    <p class="feature-description">منصة متكاملة تجمع أفضل المنشآت والخدمات في مكان واحد، مما يعزز التعاون وتبادل المنافع.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Partners Section with Image Placeholders -->
+    <section id="partners">
+        <div class="container">
+            <h2 class="section-title">المجالات</h2>
+            <p class="section-description">نتعاون مع مجموعة من أفضل العلامات التجارية لنقدم لك تجربة ولاء فريدة</p>
+            
+            <div class="partners-grid">
+                <div class="partner-item">
+                    <img src="assets/ملاعب.jpg" alt="الملاعب و الجيمات" class="partner-img">
+                    <h3>الملاعب و الجيمات</h3>
+                </div>
+                <div class="partner-item">
+                    <img src="assets/restaurant.jpg" alt="شريك 2" class="partner-img">
+                    <h3>المطاعم والكافيهات</h3>
+                </div>
+                <div class="partner-item">
+                    <img src="assets/tourism.jpeg" alt="شريك 3" class="partner-img">
+                    <h3>الترفيه والسفر</h3>
+                </div>
+                <div class="partner-item">
+                    <img src="assets/car wash.jpg" alt="شريك 4" class="partner-img">
+                    <h3>الخدمات</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Signup Section -->
+    <section id="signup">
+        <div class="container">
+            <div class="signup-container">
+                <div class="form-container">
+                    <h2 class="section-title">انضم إلينا الآن</h2>
+                    <p style="text-align: center; margin-bottom: 30px;">سجل بياناتك وابدأ في جمع النقاط لعملائك والاستفادة من العروض الحصرية</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="رقم الهاتف" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>اختر المتجر</option>
+                                <option value="wafaa-amal">Wafaa and Amal</option>
+                                <option value="hero-padel">Hero Padel</option>
+                                <option value="bim-super-markets">Bim Super Markets</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="مجموع الفاتورة" min="0" step="0.01" required>
+                        </div>
+                        <button type="submit" class="btn btn-success">تسجيل الحساب <i class="fas fa-check"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section with Image -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">آراء العملاء</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                   <!-- <img src="/api/placeholder/100/100" alt="صورة العميل" class="testimonial-img"> -->
+                    <blockquote>
+                        "نظام الولاء الموحد غيّر طريقة تسوقي تمامًا! أجمع النقاط من كل مكان أتسوق فيه وأستبدلها بهدايا رائعة."
+                    </blockquote>
+                    <cite>- سارة أحمد</cite>
+                </div>
+                <div class="testimonial-card">
+                   <!-- <img src="/api/placeholder/100/100" alt="صورة العميل" class="testimonial-img"> -->
+                    <blockquote>
+                        "كصاحب متجر، ساعدني النظام في زيادة عدد الزبائن والمبيعات بشكل ملحوظ. تجربة رائعة!"
+                    </blockquote>
+                    <cite>- محمد خالد</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <img src="assets/loyality second.png" alt="شعار نظام الولاء الموحد" class="footer-logo">
+            <p>&copy; 2025 loyality.com - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
